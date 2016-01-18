@@ -36,6 +36,8 @@ $data=json_decode($json,true);
 $sunrise = date("F j, Y, g:i a", $data['sys']['sunrise']);
 $sunset = date("F j, Y, g:i a", $data['sys']['sunset']);
 
+//City name
+echo "Weather in <b>" . $city . "</b><br>";
 //Get current Temperature in Celsius
 echo "Temp: <b>" . $data['main']['temp']."</b><br>";
 //Get min temp
