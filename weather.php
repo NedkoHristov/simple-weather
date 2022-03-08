@@ -9,7 +9,7 @@ echo "<h3>using <a href=http://openweathermap.org>OpenWeatherMap.org</a></h3><br
 //Api key
 //Api key is generated from here http://www.openweathermap.org/appid#get or if you don't want to register
 //just go to http://www.openweathermap.org/current and copy the API key assigned under "Examples of API calls:"
-$api = "appid=2de143494c0b295cca9337e1e96b00e0";
+$api = "appid=_APP_"; # Insert your appid here
 
 //City
 $city="Varna";
